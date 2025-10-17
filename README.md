@@ -60,7 +60,7 @@ API Endpoints
 
 Sample Login Response:
 ```json
-      {
+{
   "status_code": "GS20001",
   "data": {
     "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
