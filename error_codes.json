@@ -1,0 +1,20 @@
+{
+    "GE40001": "Email already registered -->/register",
+    "GE40002": "Registration failed -->/register",
+    "GE40003": "Token missing",
+    "GE40101": "Invalid credentials -->/login",
+    "GE40102": "Invalid or expired token",
+    "GE40103": "User not found",
+    "GE42201": "Dish name too short -->/get-calories",
+    "GE40401": "Dish not found or calories not available -->/get-calories",
+    "GE40402": "User not found -->/{user_id} --get",
+    "GE40403": "User not found -->/{user_id} --patch",
+    "GE40404": "User not found -->/{user_id} --delete",
+    "GS20101": "Registered successfully.  -->/register",
+    "GS20001": "token generated.  -->/login",
+    "GS20002": "token generated.  -->/get-calories",
+    "GS20003": "User data. -->/{user_id} --get",
+    "GS20004": "User updated. -->/{user_id} --patch",
+    "GS20005": "User deleted. -->/{user_id} --delete",
+    "GS20006": "Users list. -->/ --get list"
+}
