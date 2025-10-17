@@ -108,12 +108,27 @@ Sample GET /users/ Response:
     "result": [
       {
         "id": 1,
-        "first_name": "John",
-        "last_name": "Doe",
         "email": "john@example.com"
       }
     ],
     "detail": "Users list"
+  }
+}
+```
+Sample GET /users/{user_id}/ Response:
+```json
+{
+  "status_code": "GS20006",
+  "data": {
+    "result": [
+      {
+        "id": 1,
+        "first_name": "john",
+        "last_name": "smith",
+        "email": "john@example.com"
+      }
+    ],
+    "detail": "User data"
   }
 }
 ```
