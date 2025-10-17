@@ -76,18 +76,18 @@ Sample Login Response:
 Sample Response:
    ```json
    {
-  "dish_name": "chicken biryani",
-  "servings": 2,
-  "calories_per_serving": 280,
-  "total_calories": 560,
-  "source": "USDA FoodData Central",
-  "ingredients": [
-    {
-      "name": "Chicken, Rice, Spices",
-      "calories_per_serving": 280
-    }
-  ]
-}
+     "dish_name": "chicken biryani",
+     "servings": 2,
+     "calories_per_serving": 280,
+     "total_calories": 560,
+     "source": "USDA FoodData Central",
+     "ingredients": [
+       {
+         "name": "Chicken, Rice, Spices",
+         "calories_per_serving": 280
+       }
+     ]
+   }
 ```
 Error Responses:
   422: Dish name too short
@@ -102,7 +102,7 @@ Error Responses:
       | DELETE | `/users/{user_id}` | Deletes a user by ID.                                                                                                       |
 Sample GET /users/ Response:
 ```json
-      {
+{
   "status_code": "GS20006",
   "data": {
     "result": [
